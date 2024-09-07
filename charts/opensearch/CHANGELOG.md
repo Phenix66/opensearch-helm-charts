@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -13,10 +14,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 ---
-## [2.23.0]
+## [2.24.0]
 ### Added
 ### Changed
 - Updated OpenSearch language to follow the OpenSearch Project's inclusive language standards
+### Deprecated
+### Removed
+### Fixed
+### Security
+---
+## [2.23.2]
+### Added
+- Metrics configuration in both `Service` templates
+### Changed
+### Deprecated
+### Removed
+### Fixed
+- Bug `protocol` missing for metrics in `Service`
+### Security
+---
+## [2.23.1]
+### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+- Fixed `ServiceMonitor` bug for `port` value
+### Security
+---
+## [2.23.0]
+### Added
+- Added `ServiceMonitor` support for Prometheus monitoring
+### Changed
 ### Deprecated
 ### Removed
 ### Fixed
@@ -448,7 +477,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 
-[Unreleased]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.23.0...HEAD
+[Unreleased]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.24.0...HEAD
+[2.23.2]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.23.2...opensearch-2.24.0
+[2.23.2]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.23.1...opensearch-2.23.2
+[2.23.1]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.23.0...opensearch-2.23.1
 [2.23.0]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.22.1...opensearch-2.23.0
 [2.22.1]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.22.0...opensearch-2.22.1
 [2.22.0]: https://github.com/opensearch-project/helm-charts/compare/opensearch-2.21.0...opensearch-2.22.0
